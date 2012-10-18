@@ -39,3 +39,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 #$(call inherit-product, device/sample/products/backup_overlay.mk)
 # Inherit from toro device
 $(call inherit-product, device/samsung/toroplus/device.mk)
+
+PRODUCT_NAME := full_toroplus
+PRODUCT_BRAND := Samsung
